@@ -5,14 +5,14 @@
     <div class="description-container">
       <p>
         Highly motivated Frontend developer,
-        <router-link class="link" to="japanese-cars-collection">Japanese Cars</router-link> enthusiast and <router-link class="link" to="/edm-collection">Electonic Dance Music</router-link> lover who
+        <router-link class="link" to="films-collection">Cinema</router-link> enthusiast and <router-link class="link" to="/rap-collection">Rap music</router-link> lover who
         spends most of the days trying to learn something new.
       </p>
     </div>
 
     <div class="sub-description-container">
       <p>
-        Working with my hands to create something useful and unique. View my
+        Working with my brain to create something useful and unique. View my
         <router-link class="link" to="/projects">Projects</router-link>,
 
         <router-link class="link" to="/resume">Resume</router-link>, <router-link class="link" to="/contact">Contact Me</router-link> or send me an email at

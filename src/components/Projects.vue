@@ -88,7 +88,7 @@ const projects = [
         >
           <img
             class="postcard__img postcard__img__right"
-            src="../../public/hug_pf_next.png"
+            src="../../public/vue_pf.png"
             alt="Image Title"
           />
         </a>
@@ -101,10 +101,11 @@ const projects = [
             <p>Vue-Router</p>
             <p>Vite</p>
             <p>SASS</p>
+            <p>GreenSock</p>
           </div>
           <div class="postcard__bar"></div>
           <div class="postcard__preview-txt">
-            A personal portfolio website made with Vue.js and SASS.
+            This very much portfolio website made with Vue.js and SASS.
           </div>
           <ul class="postcard__tagbox">
             <li class="tag__item play">
@@ -164,7 +165,7 @@ const projects = [
       <article class="postcard light">
         <a
           class="postcard__img_link"
-          href="https://kesm.iulian-ursu.com"
+          href="https://hugcls.github.io/pf-sass/"
           target="_blank"
         >
           <img
@@ -185,7 +186,7 @@ const projects = [
           <div class="postcard__bar"></div>
           <div class="postcard__preview-txt">
             This is a portfolio website. It was originally for a client but the
-            projects in it are secrete for now. So I decided to change it and
+            projects in it are secrets for now. So I decided to change it and
             left it as a template.
           </div>
           <ul class="postcard__tagbox">

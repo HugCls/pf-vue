@@ -1,9 +1,9 @@
 <script setup>
-import CarsCollection from "../components/CarsCollection.vue";
+import FilmsCollection from "../components/FilmsCollection.vue";
 </script>
 
 <template>
-  <div class="component-wrapper"><CarsCollection /></div>
+  <div class="component-wrapper"><FilmsCollection /></div>
 </template>
 
 <style lang="scss" scoped>

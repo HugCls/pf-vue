@@ -3,8 +3,8 @@ import HomeView from "../views/HomeView.vue";
 import ContactView from "../views/ContactView.vue";
 import ResumeView from "../views/ResumeView.vue";
 import ProjectsView from "../views/ProjectsView.vue";
-import CarsCollectionView from "../views/CarsCollectionView.vue";
-import EdmCollectionView from "../views/EdmCollectionView.vue";
+import FilmsCollectionView from "../views/FilmsCollectionView.vue";
+import RapCollectionView from "../views/RapCollectionView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,19 +43,19 @@ const router = createRouter({
       },
     },
     {
-      path: "/japanese-cars-collection",
-      name: "japanese-cars-collection",
-      component: CarsCollectionView,
+      path: "/films-collection",
+      name: "films-collection",
+      component: FilmsCollectionView,
       meta: {
-        title: "Japanese Cars Collection",
+        title: "Films Collection",
       },
     },
     {
-      path: "/edm-collection",
-      name: "edm-collection",
-      component: EdmCollectionView,
+      path: "/Rap-collection",
+      name: "Rap-collection",
+      component: RapCollectionView,
       meta: {
-        title: "EDM Collection",
+        title: "Rap Collection",
       },
     },
   ],

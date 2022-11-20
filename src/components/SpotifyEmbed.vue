@@ -3,12 +3,12 @@
 <template>
   <div class="container">
     <div class="title-container">
-      <h2 class="title">My EDM Playlist.</h2>
+      <h2 class="title">My Rap Playlist.</h2>
     </div>
     <iframe
       class="spotify-player"
       style="border-radius: 12px"
-      src="https://open.spotify.com/embed/playlist/5PyZfywaM4QBUqzEeY66EE?utm_source=generator"
+      src="https://open.spotify.com/embed/playlist/3ZBaXtA5hipyUH4afij4e7?si=jVDoyBG7ST-xxezhnwh5jQ&nd=1"
       frameBorder="0"
       allowfullscreen=""
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
