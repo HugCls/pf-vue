@@ -2,16 +2,21 @@
   <div class="social-container">
     <ul class="social-icons">
       <li>
-        <a href="https://github.com/Iulian-U" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/HugCls" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/iulian-ursu-24878921b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a
+          href="https://www.linkedin.com/in/hugo-claisse-b9a22a222/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
       </li>
       <li>
-        <a href="https://www.instagram.com/__juliann_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-      </li>
-      <li>
-        <a href="https://codepen.io/IulianUrsu" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+        <a href="https://twitter.com/super_hugh" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
       </li>
     </ul>
   </div>

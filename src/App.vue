@@ -12,7 +12,7 @@ watch(route, (newVal, oldVal) => {
   routeStore.currentRoutePath = newVal.path;
 });
 
-console.log(`Hey There i'm glad you liked the site and want to see whats going on, sure check the repo at https://github.com/Iulian-U/Portfolio-Iulian-Ursu 🚀`);
+console.log(`Hey There i'm glad you liked the site and want to see whats going on, sure check the repo at https://github.com/HugCls/pf-vue 🚀`);
 </script>
 
 <template>

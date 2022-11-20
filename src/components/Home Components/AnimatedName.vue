@@ -1,5 +1,5 @@
 <template>
-  <div class="name" data-text="I'm Iulian Ursu">I'm Iulian Ursu</div>
+  <div class="name" data-text="I'm Hugo Claisse">I'm Hugo Claisse</div>
 </template>
 
 <style lang="scss" scoped>

@@ -4,27 +4,32 @@ import CustomButton from "../components/CustomButton.vue";
 const coreTechnologies = [
   { name: "HTML" },
   { name: "CSS" },
-  { name: "Javascript" },
+  { name: "JavaScript" },
+  { name: "TypeScript" },
+  { name: "Next" },
   { name: "Vue.js" },
   { name: "Nuxt" },
-  { name: "GraphQL" },
+  { name: "Ruby" },
+  { name: "Ruby on Rails" },
   { name: "SASS" },
   { name: "Tailwind" },
   { name: "Google Search" },
 ];
-const otherTechnologies = [{ name: "Adobe Photoshop" }, { name: "Adobe Illustrator" }, { name: "Figma" }, { name: "Microsoft Excel" }];
-const languages = [{ name: "English" }, { name: "Romanian" }, { name: "Italian" }];
+
+const languages = [{ name: "English" }, { name: "French" }];
 
 const role = "Frontend Developer";
 const aboutMe = [
   {
-    headline1: "Highly motivated, self-starting developer seeking to launch a career building web applications and services.",
-    headline2: "Tech stack: HTML(5), Css(3), Sass, Javascript, Vue.js",
+    headline1: `After my intensive studies at "The Hacking Project" school where I learnt both back and front. At the end I found myself more comfortable with the Frontend development, which I decided to specialize in.`,
+    headline2:
+      "Tech stack: HTML, CSS, Javascript, Next.JS, Vue.js, Sass, Tailwind, Ruby, Ruby on Rails, Git, Github",
     headline3:
       "I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques is important to me and the success of any organization.",
   },
 ];
-const experienceDescription = "Below can be found my work experience and the skills that I gained along the way";
+const experienceDescription =
+  "Below can be found my work experience and the skills that I gained along the way";
 </script>
 
 <template>
@@ -32,10 +37,17 @@ const experienceDescription = "Below can be found my work experience and the ski
     <!-- Linkedin icon and download btn container -->
     <div class="navbar">
       <!-- Linkedin icon -->
-      <a href="https://www.linkedin.com/in/iulian-ursu-24878921b/" target="_blank" class="linkedin-link"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+      <a
+        href="https://www.linkedin.com/in/hugo-claisse-b9a22a222/"
+        target="_blank"
+        class="linkedin-link"
+        ><i class="fa-brands fa-linkedin fa-xl"></i
+      ></a>
 
       <!-- Download btn -->
-      <a href="../../public/files/Iulian-Ursu-Resume.pdf" target="_blank"><CustomButton text="Download" /></a>
+      <a href="../../public/files/CV_Hugo_Claisse.pdf" target="_blank"
+        ><CustomButton text="Download"
+      /></a>
     </div>
     <!-- Resume container -->
     <div class="resume-container">
@@ -43,43 +55,45 @@ const experienceDescription = "Below can be found my work experience and the ski
       <aside class="side-container">
         <div class="side-info-container">
           <router-link class="portfolio-link-container" to="/">
-            <p class="portfolio-link">iulian-ursu.com</p>
+            <p class="portfolio-link">hugo-pf-vue.vercel.app</p>
             <span class="portfolio-link-underline"></span>
           </router-link>
 
-          <p class="location">Iasi, Romania</p>
-          <p class="phone-number">+40 746 579 112</p>
+          <p class="location">Lausanne, Switzerland</p>
+          <p class="phone-number">+33 7 67 13 79 31</p>
 
           <router-link class="mail-link-container" to="/contact">
-            <p class="mail-link">mail@iulian-ursu.com</p>
+            <p class="mail-link">hugo.claisse@live.fr</p>
             <span class="mail-link-underline"></span>
           </router-link>
         </div>
 
         <div class="core-tech-container">
           <h2 class="core-tech-title">Core Technologies:</h2>
-          <ul class="core-skills-list" v-for="technologies in coreTechnologies" :key="technologies.name">
-            <li>{{ technologies.name }}</li>
-          </ul>
-        </div>
-        <div class="other-tech-container">
-          <h2 class="other-tech-title">Others Technologies:</h2>
-          <ul class="other-tech-list" v-for="technologies in otherTechnologies" :key="technologies.name">
+          <ul
+            class="core-skills-list"
+            v-for="technologies in coreTechnologies"
+            :key="technologies.name"
+          >
             <li>{{ technologies.name }}</li>
           </ul>
         </div>
 
         <div class="languages-container">
           <h2 class="langauges-title">Languages I Speak</h2>
-          <ul class="langauges-list" v-for="language in languages" :key="language.name">
+          <ul
+            class="langauges-list"
+            v-for="language in languages"
+            :key="language.name"
+          >
             <li>{{ language.name }}</li>
           </ul>
         </div>
       </aside>
       <div class="main-container">
         <div class="name-container">
-          <h2 class="first-name">Iulian</h2>
-          <h2 class="last-name">Ursu</h2>
+          <h2 class="first-name">Hugo</h2>
+          <h2 class="last-name">Claisse</h2>
         </div>
         <div class="role-title-container">
           <p>{{ role }}</p>
@@ -98,26 +112,35 @@ const experienceDescription = "Below can be found my work experience and the ski
           <div class="experience-title-container">
             <h2 class="experience-title">Experience</h2>
             <span class="experience-title-underline"></span>
-            <p class="experience-title-description">{{ experienceDescription }}</p>
+            <p class="experience-title-description">
+              {{ experienceDescription }}
+            </p>
           </div>
 
           <div class="work-experience-block">
             <div class="work-experience-header-container">
               <div class="work-experience-title-container">
-                <h2 class="work-company-title">CGS Romania</h2>
+                <h2 class="work-company-title">Freelance.</h2>
                 <span class="work-experience-divider"></span>
-                <h2 class="work-experience-subtitle">Frontend Developer</h2>
+                <h2 class="work-experience-subtitle">Front-end Developer.</h2>
               </div>
-              <p class="work-experience-date">December 2021 - September 2022</p>
+              <p class="work-experience-date">since may 2022.</p>
             </div>
             <div class="work-experience-description">
-              I developed and maintained a web application designed to solve a specific problem on the project I was working on. The purpose of the application is to centralize multiple excel files
-              the team was dealing with, this saves time and solves possible issues such as data loss or file corruption.
+              I am currently working as a freelance web developer. I am looking
+              for new projects.
               <ul class="work-experience-tasks-list">
-                <li>Built the frontend of the app using Vue.js and implemented the backend using firebase.</li>
-                <li>Implemented an auth system so each agent could access their own files.</li>
-                <li>Implemented a function to format and rename the files automatically according to the project guidlines.</li>
-                <li>Implemented a news system to share new procedures with the team using GraphQL and GraphCMS.</li>
+                <li>
+                  Built the frontend of the app using Next.js and implemented
+                  the backend using prisma, next-auth and the headless CMS of
+                  WordPress.
+                </li>
+                <li>
+                  Implemented an auth system so the admins can log in and manage
+                  their contents, otherwise using the WordPress' CMS
+                </li>
+                <li>API calls.</li>
+                <li>UX friendly design, responsive and mobile first.</li>
               </ul>
             </div>
           </div>
@@ -125,67 +148,48 @@ const experienceDescription = "Below can be found my work experience and the ski
           <div class="work-experience-block">
             <div class="work-experience-header-container">
               <div class="work-experience-title-container">
-                <h2 class="work-company-title">CGS Romania</h2>
+                <h2 class="work-company-title">La Voyette.</h2>
                 <span class="work-experience-divider"></span>
-                <h2 class="work-experience-subtitle">Quality Analyst - Team Leader</h2>
+                <h2 class="work-experience-subtitle">Front-end Developer.</h2>
               </div>
-              <p class="work-experience-date">November 2020 - September 2022</p>
+              <p class="work-experience-date">2022.</p>
             </div>
             <div class="work-experience-description">
-              As a Team Leader and QA, I guided the implementation of strategies designed to achieve planned goals. Managed a team of 20+ employees, evaluated their work and monitored the project to
-              ensure its progress.
+              Volunteer team project to create a website for a theatre company.
+              We worked asynchronously and used the agile method. Using Git and
+              Github to manage the project. We also setted up a Trello board to
+              manage the tasks. I was in charge of the frontend of the website.
             </div>
           </div>
 
           <div class="work-experience-block">
             <div class="work-experience-header-container">
               <div class="work-experience-title-container">
-                <h2 class="work-company-title">CGS Romania</h2>
+                <h2 class="work-company-title">Pas à pas.</h2>
                 <span class="work-experience-divider"></span>
-                <h2 class="work-experience-subtitle">Technical Support Agent</h2>
+                <h2 class="work-experience-subtitle">Head of communication.</h2>
               </div>
-              <p class="work-experience-date">January 2020 - November 2020</p>
-            </div>
-            <div class="work-experience-description">As a technical agent I ensured technical support via ticketing system according to the procedures shared across the team.</div>
-          </div>
-
-          <div class="work-experience-block">
-            <div class="work-experience-header-container">
-              <div class="work-experience-title-container">
-                <h2 class="work-company-title">Thorntons Recycling</h2>
-                <span class="work-experience-divider"></span>
-                <h2 class="work-experience-subtitle">Transport Planner</h2>
-              </div>
-              <p class="work-experience-date">June 2017 - October 2019</p>
-            </div>
-            <div class="work-experience-description">I developed transportation strategies and worked to improve travel for both individuals and the transport of goods.</div>
-          </div>
-
-          <div class="work-experience-block">
-            <div class="work-experience-header-container">
-              <div class="work-experience-title-container">
-                <h2 class="work-company-title">Sky Handling Partner</h2>
-                <span class="work-experience-divider"></span>
-                <h2 class="work-experience-subtitle">Airport Operations Specialit - Team Leader</h2>
-              </div>
-              <p class="work-experience-date">June 2015 - May 2017</p>
+              <p class="work-experience-date">2017 - 2022.</p>
             </div>
             <div class="work-experience-description">
-              I followed procedures to oversee the landing field, ramps, safety, and protection of the flight terminal. I managed a team of 5+ to ensure the ground operations were executed according
-              to the airport rules and procedures.
+              Management and training of the fundraising teams for an NGO.
             </div>
           </div>
-        </div>
+          </div>
+
+        
         <div class="projects-link-container">
           <div class="projects-link-title-container">
             <h2>Projects</h2>
             <span class="projects-link-title-underline"></span>
           </div>
           <div class="projects-link-description-container">
-            <p class="projects-link-description">Links to some of my work can be found on:</p>
+            <p class="projects-link-description">
+              Links to some of my work can be found on:
+            </p>
 
             <router-link class="projects-link-container" to="/projects">
-              <p class="projects-link">iulian-ursu.com/projects</p>
+              <p class="projects-link">hugo-pf-vue.vercel.app/resume</p>
               <span class="projects-link-underline"></span>
             </router-link>
           </div>
@@ -208,7 +212,11 @@ $slate: #cbd5e134;
 $light-blue: #0077b5;
 
 /* Download btn transition */
-@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65, 0, 0.076, 1)) {
+@mixin transition(
+  $property: all,
+  $duration: 0.45s,
+  $ease: cubic-bezier(0.65, 0, 0.076, 1)
+) {
   transition: $property $duration $ease;
 }
 

@@ -16,7 +16,7 @@
         <router-link class="link" to="/projects">Projects</router-link>,
 
         <router-link class="link" to="/resume">Resume</router-link>, <router-link class="link" to="/contact">Contact Me</router-link> or send me an email at
-        <a href="mailto:mail@iulian-ursu.com" class="link">mail@iulian-ursu.com</a>
+        <a href="mailto:hugo.claisse@live.fr" class="link">hugo.claisse@live.fr</a>
       </p>
     </div>
   </div>

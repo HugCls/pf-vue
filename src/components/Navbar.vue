@@ -12,7 +12,7 @@ function toggleActive() {
 <template>
   <nav>
     <div class="logo-container">
-      <router-link class="logo text-outline text-outline-hover" data-text="IU." to="/">IU.</router-link>
+      <router-link class="logo text-outline text-outline-hover" data-text="HC." to="/">HC.</router-link>
     </div>
 
     <div class="links-container">

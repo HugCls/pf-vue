@@ -35,67 +35,67 @@ const projects = [
     </div>
     <div class="cards-wrapper">
       <article class="postcard light">
-        <a class="postcard__img_link" href="https://kesm.iulian-ursu.com" target="_blank">
-          <img class="postcard__img postcard__img__left" src="https://user-images.githubusercontent.com/59142419/186708242-6c1f605a-a6b1-4a44-bd4f-6663b4e345df.png" alt="Image Title" />
+        <a
+          class="postcard__img_link"
+          href="https://hugo-resume-next-ts.vercel.app/"
+          target="_blank"
+        >
+          <img
+            class="postcard__img postcard__img__left"
+            src="https://hugo-resume-next-ts.vercel.app/_next/image?url=%2Fimages%2Fprojects%2Fmmw.png&w=384&q=100"
+            alt="Image Title"
+          />
         </a>
         <div class="postcard__text t-dark">
-          <h1 class="postcard__title"><a href="#">KESM</a></h1>
+          <h1 class="postcard__title">
+            <a href="#">Michael 'Mudcat' Ward's website.</a>
+          </h1>
           <div class="postcard__subtitle small">
-            <p>Vue 3</p>
-            <p>Vue-Router</p>
-            <p>Vite</p>
-            <p>Pinia</p>
-            <p>Tailwind</p>
-            <p>Firebase</p>
+            <p>Next.js</p>
+            <p>Node.js</p>
+            <p>Wordpress CMS</p>
+            <p>TailwindCSS</p>
+            <p>Chakra UI</p>
+            <p>Cpanel</p>
           </div>
           <div class="postcard__bar"></div>
           <div class="postcard__preview-txt">
-            Kesm is an application created to solve certain problems that I encountered while I was working as a Quality Analyst and Team Leader. The team I was in charge of had ended up storing data
-            in more than 15 excel files at the same time. This led to several problems including data loss and corrupted files. This is where Kesm comes in, an application that centralizes all these
-            files in a single web page. The user who uses the application has the possibility to store data in different tables, which can be downloaded in the form of an excel file formatted and
-            renamed according to the user's needs.
+            A website for an American bluesman : 'Mudcat Ward'. So far my most
+            challenging project. I had to implement a headless CMS to allow the
+            client to update the website himself. I also had to implement a
+            mailer, I did a custom hook to fetch data and many other things
+            beside the front-end.
           </div>
           <ul class="postcard__tagbox">
             <li class="tag__item play">
-              <a href="https://github.com/Iulian-U/KESM" target="_blank"><i class="fa-brands fa-github mr-2"></i>Repository</a>
+              <a href="https://github.com/HugCls/MWprojet" target="_blank"
+                ><i class="fa-brands fa-github mr-2"></i>Repository</a
+              >
             </li>
             <li class="tag__item play">
-              <a href="https://kesm.iulian-ursu.com" target="_blank"><i class="fa-solid fa-eye mr-2"></i>Live Demo</a>
+              <a href="https://hugo-resume-next-ts.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-eye mr-2"></i>Live Demo</a
+              >
             </li>
           </ul>
         </div>
       </article>
-
       <article class="postcard light">
-        <a class="postcard__img_link" href="https://github.com/Iulian-U/Google-Search-Operators-Cheatsheet--Chrome-Extension" target="_blank">
-          <img class="postcard__img postcard__img__right" src="https://user-images.githubusercontent.com/59142419/186966813-40cfb810-8d86-4fef-92f9-1c6a0317b744.png" alt="Image Title" />
+        <a
+          class="postcard__img_link"
+          href="https://hugo-pf-vue.vercel.app/"
+          target="_blank"
+        >
+          <img
+            class="postcard__img postcard__img__right"
+            src="../../public/hug_pf_next.png"
+            alt="Image Title"
+          />
         </a>
         <div class="postcard__text t-dark">
-          <h1 class="postcard__title"><a href="#">Google Search Cheatsheet - Chrome Extension</a></h1>
-          <div class="postcard__subtitle small">
-            <p>HTML 5</p>
-            <p>CSS 3</p>
-            <p>JavaScript</p>
-          </div>
-          <div class="postcard__bar"></div>
-          <div class="postcard__preview-txt">A collection of the most used operators to simplify your Google searches.</div>
-          <ul class="postcard__tagbox">
-            <li class="tag__item play">
-              <a href="https://github.com/Iulian-U/Google-Search-Operators-Cheatsheet--Chrome-Extension" target="_blank"><i class="fa-brands fa-github mr-2"></i>Repository</a>
-            </li>
-            <li class="tag__item play">
-              <a href="#" target="_blank"><i class="fa-solid fa-eye mr-2"></i>Live Demo</a>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="postcard light">
-        <a class="postcard__img_link" href="https://kesm.iulian-ursu.com" target="_blank">
-          <img class="postcard__img postcard__img__left" src="https://user-images.githubusercontent.com/59142419/187034714-7b9f7826-d3f6-421a-8c9b-e7879fc063cc.png" alt="Image Title" />
-        </a>
-        <div class="postcard__text t-dark">
-          <h1 class="postcard__title"><a href="#">Personal Portfolio Website</a></h1>
+          <h1 class="postcard__title">
+            <a href="#">Personal Portfolio Website.</a>
+          </h1>
           <div class="postcard__subtitle small">
             <p>Vue 3</p>
             <p>Vue-Router</p>
@@ -103,13 +103,183 @@ const projects = [
             <p>SASS</p>
           </div>
           <div class="postcard__bar"></div>
-          <div class="postcard__preview-txt">A personal portfolio website made with Vue.js and SASS.</div>
+          <div class="postcard__preview-txt">
+            A personal portfolio website made with Vue.js and SASS.
+          </div>
           <ul class="postcard__tagbox">
             <li class="tag__item play">
-              <a href="https://github.com/Iulian-U/Portfolio-Iulian-Ursu" target="_blank"><i class="fa-brands fa-github mr-2"></i>Repository</a>
+              <a href="https://github.com/HugCls/Hugo_Resume" target="_blank"
+                ><i class="fa-brands fa-github mr-2"></i>Repository</a
+              >
             </li>
             <li class="tag__item play">
-              <a href="https://iulian-ursu.com/" target="_blank"><i class="fa-solid fa-eye mr-2"></i>Live Demo</a>
+              <a href="https://hugo-resume-next-ts.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-eye mr-2"></i>Live Demo</a
+              >
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="postcard light">
+        <a
+          class="postcard__img_link"
+          href="https://hugo-resume-next-ts.vercel.app/"
+          target="_blank"
+        >
+          <img
+            class="postcard__img postcard__img__left"
+            src="../../public/hug_pf_next.png"
+            alt="Image Title"
+          />
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title">
+            <a href="#">Personal Portfolio Website.</a>
+          </h1>
+          <div class="postcard__subtitle small">
+            <p>Next.JS</p>
+            <p>TypeScript</p>
+            <p>TailwindCSS</p>
+            <p>Chakra UI</p>
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">
+            A personal portfolio website made with Next.JS, Typescript,
+            TailwindCSS and Chakra UI.
+          </div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item play">
+              <a href="https://github.com/HugCls/Hugo_Resume" target="_blank"
+                ><i class="fa-brands fa-github mr-2"></i>Repository</a
+              >
+            </li>
+            <li class="tag__item play">
+              <a href="https://hugo-resume-next-ts.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-eye mr-2"></i>Live Demo</a
+              >
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="postcard light">
+        <a
+          class="postcard__img_link"
+          href="https://kesm.iulian-ursu.com"
+          target="_blank"
+        >
+          <img
+            class="postcard__img postcard__img__right"
+            src="https://hugo-resume-next-ts.vercel.app/_next/image?url=%2Fimages%2Fprojects%2Fpf.png&w=384&q=100"
+            alt="Image Title"
+          />
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title">
+            <a href="#">Portfolio Website.</a>
+          </h1>
+          <div class="postcard__subtitle small">
+            <p>React</p>
+            <p>JavaScript</p>
+            <p>SASS</p>
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">
+            This is a portfolio website. It was originally for a client but the
+            projects in it are secrete for now. So I decided to change it and
+            left it as a template.
+          </div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item play">
+              <a href="https://github.com/HugCls/pf-sass" target="_blank"
+                ><i class="fa-brands fa-github mr-2"></i>Repository</a
+              >
+            </li>
+            <li class="tag__item play">
+              <a href="https://hugcls.github.io/pf-sass/" target="_blank"
+                ><i class="fa-solid fa-eye mr-2"></i>Live Demo</a
+              >
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="postcard light">
+        <a
+          class="postcard__img_link"
+          href="https://github.com/FabCom/LaVoyette"
+          target="_blank"
+        >
+          <img
+            class="postcard__img postcard__img__left"
+            src="https://hugo-resume-next-ts.vercel.app/_next/image?url=%2Fimages%2Fprojects%2Flavoyette.png&w=384&q=100"
+            alt="Image Title"
+          />
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title">
+            <a href="#">La Voyette.</a>
+          </h1>
+          <div class="postcard__subtitle small">
+            <p>Next.js</p>
+            <p>Typescript</p>
+            <p>Prisma</p>
+            <p>Material UI</p>
+            <p>CMS</p>
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">
+            Originally a volunteer team project for a theatre company, they
+            migrated recently so i managed to keep an early version, that need a
+            lot of refactoring. still you can visit the repo to see the code, we
+            did a lot of work included a mailer and a homemade CMS. I personnaly
+            made all the front.
+          </div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item play">
+              <a href="https://github.com/FabCom/LaVoyette" target="_blank"
+                ><i class="fa-brands fa-github mr-2"></i>Repository</a
+              >
+            </li>
+            <li class="tag__item play">
+              <a href="https://la-voyette.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-eye mr-2"></i>Live Demo</a
+              >
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="postcard light">
+        <a
+          class="postcard__img_link"
+          href="https://github.com/HugCls"
+          target="_blank"
+        >
+          <img
+            class="postcard__img postcard__img__right"
+            src="https://hugo-resume-next-ts.vercel.app/_next/image?url=%2Fimages%2Fprojects%2Fthp.png&w=384&q=100"
+            alt="Image Title"
+          />
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title">
+            <a href="#">Other projects.</a>
+          </h1>
+          <div class="postcard__subtitle small">
+            <p>Next.JS</p>
+            <p>TypeScript</p>
+            <p>TailwindCSS</p>
+            <p>Chakra UI</p>
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">
+            Feel free to check my github for more projects, these are mainly school projects
+          </div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item play">
+              <a href="https://github.com/HugCls" target="_blank"
+                ><i class="fa-brands fa-github mr-2"></i>Repository</a
+              >
             </li>
           </ul>
         </div>

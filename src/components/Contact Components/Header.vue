@@ -2,7 +2,7 @@
   <div class="header-container">
     <h2>Contact.</h2>
     <p>
-      Get in touch or shoot me an email directly on <span class="mail">mail@iulian-ursu.com </span>
+      Get in touch or shoot me an email directly on <span class="mail">hugo.claisse@live.fr </span>
     </p>
   </div>
 </template>

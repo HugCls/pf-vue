@@ -63,7 +63,7 @@ const router = createRouter({
 
 //change page tite based on route
 router.beforeEach((to, from, next) => {
-  document.title = `Iulian Ursu | ${to.meta.title}`;
+  document.title = `Hugo Claisse | ${to.meta.title}`;
   next();
 });
 
