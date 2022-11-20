@@ -12,22 +12,46 @@ function toggleActive() {
 <template>
   <nav>
     <div class="logo-container">
-      <router-link class="logo text-outline text-outline-hover" data-text="HC." to="/">HC.</router-link>
+      <router-link
+        class="logo text-outline text-outline-hover"
+        data-text="HC."
+        to="/"
+        >HC.</router-link
+      >
     </div>
 
     <div class="links-container">
-      <div class="home-route-container" v-if="routeStore.currentRoutePath !== '/'"><router-link class="link" to="/">Home</router-link></div>
+      <div
+        class="home-route-container"
+        v-if="routeStore.currentRoutePath !== '/'"
+      >
+        <router-link class="link" to="/">Home</router-link>
+      </div>
       <router-link class="link" to="/projects">Projects</router-link>
       <router-link class="link" to="/resume">Resume</router-link>
       <router-link class="link" to="/contact">Contact</router-link>
     </div>
 
-    <div :class="[isActive ? 'mobile-links-wrapper-active' : 'mobile-links-wrapper-inactive']">
+    <div
+      :class="[
+        isActive
+          ? 'mobile-links-wrapper-active'
+          : 'mobile-links-wrapper-inactive',
+      ]"
+    >
       <div class="nav-links-container">
-        <router-link class="link" to="/" @click="toggleActive">Home</router-link>
-        <router-link class="link" to="/projects" @click="toggleActive">Projects</router-link>
-        <router-link class="link" to="/resume" @click="toggleActive">Resume</router-link>
-        <router-link class="link" to="/contact" @click="toggleActive">Contact</router-link>
+        <router-link class="link" to="/" @click="toggleActive"
+          >Home</router-link
+        >
+        <router-link class="link" to="/projects" @click="toggleActive"
+          >Projects</router-link
+        >
+        <router-link class="link" to="/resume" @click="toggleActive"
+          >Resume</router-link
+        >
+        <router-link class="link" to="/contact" @click="toggleActive"
+          >Contact</router-link
+        >
       </div>
     </div>
 
@@ -203,7 +227,10 @@ nav {
       display: block;
       position: absolute;
       path {
-        transition: stroke-dasharray var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s), stroke-dashoffset var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s);
+        transition: stroke-dasharray var(--duration, 0.85s) var(--easing, ease)
+            var(--delay, 0s),
+          stroke-dashoffset var(--duration, 0.85s) var(--easing, ease)
+            var(--delay, 0s);
         stroke-dasharray: var(--array-1, 26px) var(--array-2, 100px);
         stroke-dashoffset: var(--offset, 126px);
         transform: translateZ(0);
