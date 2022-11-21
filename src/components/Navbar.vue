@@ -98,13 +98,10 @@ nav {
       text-transform: uppercase;
       color: $color-black;
       text-decoration: none;
-      
 
       @media screen and (max-width: 1200px) {
         margin-left: -2rem;
-        // display: none;
-
-
+        display: none;
       }
     }
 
