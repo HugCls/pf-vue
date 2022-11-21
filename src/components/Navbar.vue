@@ -101,7 +101,6 @@ nav {
 
       @media screen and (max-width: 1200px) {
         margin-left: -2rem;
-        font-size: 1rem;
       }
     }
 
