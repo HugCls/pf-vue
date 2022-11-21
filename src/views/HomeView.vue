@@ -46,11 +46,11 @@ body {
   }
 
   @media screen and (max-width: 375px) {
-    height: 150vh;
+    height: 130vh;
   }
 
   @media screen and (max-width: 768px) {
-    height: 130vh;
+    height: 100vh;
   }
 
   .name-container {

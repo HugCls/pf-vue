@@ -12,7 +12,8 @@ const filmList = [
     year: "1990",
     director: "Martin Scorsese",
     duration: "146 min",
-    image: "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
   },
   {
     id: 2,
@@ -21,7 +22,8 @@ const filmList = [
     year: "1988",
     director: "John McTiernan",
     duration: "132 min",
-    image: "https://www.melty.fr/wp-content/uploads/meltyfr/2022/08/mv5bzjrlnduxzjatogq4oc00otnlltgxnmqtytbmmdgwzmnmnjkxxkeyxkfqcgdeqxvynzkwmjq5nzm@._v1_.jpg",
+    image:
+      "https://www.melty.fr/wp-content/uploads/meltyfr/2022/08/mv5bzjrlnduxzjatogq4oc00otnlltgxnmqtytbmmdgwzmnmnjkxxkeyxkfqcgdeqxvynzkwmjq5nzm@._v1_.jpg",
   },
   {
     id: 3,
@@ -30,7 +32,8 @@ const filmList = [
     year: "1980",
     director: "Stanley Kubrick",
     duration: "119 min",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8tiCL4BpaCIZR5hHY3QVal3OUKOOR6X49g&usqp=CAU",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8tiCL4BpaCIZR5hHY3QVal3OUKOOR6X49g&usqp=CAU",
   },
   {
     id: 4,
@@ -39,7 +42,8 @@ const filmList = [
     year: "2017",
     director: "Sean Baker",
     duration: "115 min",
-    image: "https://m.media-amazon.com/images/M/MV5BMjg4ZmY1MmItMjFjOS00ZTg2LWJjNDYtNDM2YmM2NzhiNmZhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_.jpg",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMjg4ZmY1MmItMjFjOS00ZTg2LWJjNDYtNDM2YmM2NzhiNmZhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_.jpg",
   },
   {
     id: 5,
@@ -48,7 +52,8 @@ const filmList = [
     year: "2019",
     director: "Bong Joon-ho",
     duration: "132 min",
-    image: "https://img-4.linternaute.com/uVxdFzpRJ56EW2hYBCls8_5O9zE=/405x540/0156050d180a42b2a0cea23c262949e2/ccmcms-linternaute/175577.jpg",
+    image:
+      "https://img-4.linternaute.com/uVxdFzpRJ56EW2hYBCls8_5O9zE=/405x540/0156050d180a42b2a0cea23c262949e2/ccmcms-linternaute/175577.jpg",
   },
   {
     id: 6,
@@ -57,7 +62,8 @@ const filmList = [
     year: "2016",
     director: "Denis Villeneuve",
     duration: "116 min",
-    image: "http://www.emaginarock.fr/wp-content/uploads/2016/11/arrival_ver9.jpg",
+    image:
+      "http://www.emaginarock.fr/wp-content/uploads/2016/11/arrival_ver9.jpg",
   },
   {
     id: 7,
@@ -66,7 +72,8 @@ const filmList = [
     year: "2004",
     director: "Wes Anderson",
     duration: "93 min",
-    image: "https://kbimages1-a.akamaihd.net/bd458f36-72d6-4e47-89df-7b56021e3210/353/569/90/False/moonrise-kingdom.jpg",
+    image:
+      "https://kbimages1-a.akamaihd.net/bd458f36-72d6-4e47-89df-7b56021e3210/353/569/90/False/moonrise-kingdom.jpg",
   },
   {
     id: 8,
@@ -75,7 +82,8 @@ const filmList = [
     year: "1985",
     director: "Robert Zemeckis",
     duration: "116 min",
-    image: "https://www.levinyleclub.com/wp-content/uploads/2021/02/71TnSyLJRzL._SL1017_.jpg",
+    image:
+      "https://www.levinyleclub.com/wp-content/uploads/2021/02/71TnSyLJRzL._SL1017_.jpg",
   },
 ];
 
@@ -103,9 +111,24 @@ const filteredFilms = computed(() => {
     </div>
 
     <ul class="filter-nav">
-      <li :class="selected == 'All' ? 'selected' : ''" @click="selected = 'All'">All</li>
-      <li :class="selected == 'Oldies' ? 'selected' : ''" @click="selected = 'Oldies'">Oldies</li>
-      <li :class="selected == 'Recent' ? 'selected' : ''" @click="selected = 'Recent'">Recent</li>
+      <li
+        :class="selected == 'All' ? 'selected' : ''"
+        @click="selected = 'All'"
+      >
+        All
+      </li>
+      <li
+        :class="selected == 'Oldies' ? 'selected' : ''"
+        @click="selected = 'Oldies'"
+      >
+        Oldies
+      </li>
+      <li
+        :class="selected == 'Recent' ? 'selected' : ''"
+        @click="selected = 'Recent'"
+      >
+        Recent
+      </li>
     </ul>
 
     <div class="card-grid-container">
@@ -137,6 +160,9 @@ const filteredFilms = computed(() => {
   flex-direction: column;
   align-items: center;
   overflow: auto;
+
+  
+
 
   .title-container {
     width: 100%;
