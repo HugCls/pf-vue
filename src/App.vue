@@ -37,20 +37,20 @@ console.log(
 .page-wrapper {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  // height: 100vh;
   overflow: hidden;
 
-  @media screen and (max-width: 1200px) {
-    height: 250vh;
-  }
+  // @media screen and (max-width: 1200px) {
+  //   height: 250vh;
+  // }
 
-  @media screen and (max-width: 375px) {
-    height: 150vh;
-  }
+  // @media screen and (max-width: 375px) {
+  //   height: 150vh;
+  // }
 
-  @media screen and (max-width: 768px) {
-    height: 130vh;
-  }
+  // @media screen and (max-width: 768px) {
+  //   height: 130vh;
+  // }
 }
 .navbar-container {
   margin: 0 auto;

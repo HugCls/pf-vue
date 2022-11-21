@@ -41,6 +41,18 @@ body {
   align-items: center;
   justify-content: center;
 
+  @media screen and (max-width: 1200px) {
+    height: 250vh;
+  }
+
+  @media screen and (max-width: 375px) {
+    height: 150vh;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 130vh;
+  }
+
   .name-container {
     display: flex;
     justify-content: start;
