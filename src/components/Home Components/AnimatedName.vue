@@ -50,7 +50,15 @@ $orange-2: rgb(255, 136, 0);
   .name {
     font-size: 3.5rem;
     max-width: 400px;
-    margin-top: 250px;
+    // margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .name {
+    font-size: 3.5rem;
+    max-width: 400px;
+    // margin-top: 150px;
   }
 }
 
@@ -58,7 +66,7 @@ $orange-2: rgb(255, 136, 0);
   .name {
     font-size: 2.5rem;
     max-width: 400px;
-    margin-top: 200px
+    // margin-top: -500px
   }
 }
 

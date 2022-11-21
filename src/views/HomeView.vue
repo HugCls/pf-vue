@@ -17,7 +17,12 @@ import CustomButton from "../components/CustomButton.vue";
     </div>
 
     <div class="see-more-container">
-      <a href="https://www.linkedin.com/in/hugo-claisse-b9a22a222/" target="_blank"> <CustomButton text="More about me" /></a>
+      <a
+        href="https://www.linkedin.com/in/hugo-claisse-b9a22a222/"
+        target="_blank"
+      >
+        <CustomButton text="More about me"
+      /></a>
     </div>
 
     <div class="social-icons-container">
@@ -59,6 +64,12 @@ body {
     justify-content: center;
   }
 
+  @media screen and (max-width: 375px) {
+    margin-top: -2rem;
+  }
+    
+  }
+
   .see-more-container {
     display: flex;
     justify-content: start;
@@ -72,7 +83,7 @@ body {
 
     @media screen and (max-width: 375px) {
       width: 90%;
-      margin-top: 1.5rem;
+      // margin-top: 1.5rem;
     }
   }
 
@@ -89,5 +100,5 @@ body {
       bottom: -5rem;
     }
   }
-}
+
 </style>
