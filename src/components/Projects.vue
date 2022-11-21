@@ -229,21 +229,36 @@ const projects = [
           </div>
           <div class="postcard__bar"></div>
           <div class="postcard__preview-txt">
-            Originally a volunteer team project for a theatre company, they
-            migrated recently so i managed to keep an early version, that need a
-            lot of refactoring. still you can visit the repo to see the code, we
-            did a lot of work included a mailer and a homemade CMS. I personnaly
-            made all the front.
+            Originally a volunteer team project for a theatre company. In the
+            first version, we implemented a homemade CMS with Prisma and
+            Next.js. I took mostly care of the front-end part. The second
+            version is a complete remake of the website with a new design and
+            WordPress headless CMS. Unfortunatelly, due to lack of time, this
+            project is still suspended. None of those version are maintained
+            anymore, still you can check the code, and take a look at the live
+            demo.
           </div>
           <ul class="postcard__tagbox">
             <li class="tag__item play">
               <a href="https://github.com/FabCom/LaVoyette" target="_blank"
-                ><i class="fa-brands fa-github mr-2"></i>Repository</a
+                ><i class="fa-brands fa-github mr-2"></i>Repository V1</a
+              >
+            </li>
+            <li class="tag__item play">
+              <a
+                href="https://github.com/FabCom/LaVoyette-Front"
+                target="_blank"
+                ><i class="fa-brands fa-github mr-2"></i>Repository V2</a
               >
             </li>
             <li class="tag__item play">
               <a href="https://la-voyette.vercel.app/" target="_blank"
-                ><i class="fa-solid fa-eye mr-2"></i>Live Demo</a
+                ><i class="fa-solid fa-eye mr-2"></i>Live Demo V1</a
+              >
+            </li>
+            <li class="tag__item play">
+              <a href="https://lavoyette.fr/" target="_blank"
+                ><i class="fa-solid fa-eye mr-2"></i>Live Demo V2</a
               >
             </li>
           </ul>
@@ -274,7 +289,8 @@ const projects = [
           </div>
           <div class="postcard__bar"></div>
           <div class="postcard__preview-txt">
-            Feel free to check my github for more projects, these are mainly school projects
+            Feel free to check my github for more projects, these are mainly
+            school projects
           </div>
           <ul class="postcard__tagbox">
             <li class="tag__item play">
