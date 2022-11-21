@@ -44,12 +44,12 @@ console.log(
     height: 220vh;
   }
 
-  // @media screen and (max-width: 375px) {
-  //   height: 100vh;
-  // }
+  @media screen and (max-width: 375px) {
+    height: 150vh;
+  }
 
   @media screen and (max-width: 768px) {
-    height: 100vh;
+    height: 130vh;
   }
 }
 .navbar-container {
