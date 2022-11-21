@@ -48,7 +48,7 @@ const projects = [
         </a>
         <div class="postcard__text t-dark">
           <h1 class="postcard__title">
-            <a href="#">Michael 'Mudcat' Ward's website.</a>
+            <a href="#">Michael 'Mudcat' <br> Ward's website.</a>
           </h1>
           <div class="postcard__subtitle small">
             <p>Next.js</p>
@@ -88,7 +88,7 @@ const projects = [
         >
           <img
             class="postcard__img postcard__img__right"
-            src="../../public/vue_pf.png"
+            src="/vue_pf.png"
             alt="Image Title"
           />
         </a>
@@ -129,7 +129,7 @@ const projects = [
         >
           <img
             class="postcard__img postcard__img__left"
-            src="../../public/hug_pf_next.png"
+            src="/hug_pf_next.png"
             alt="Image Title"
           />
         </a>
