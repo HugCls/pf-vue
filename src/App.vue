@@ -41,7 +41,7 @@ console.log(
   overflow: hidden;
 
   @media screen and (max-width: 1200px) {
-    height: 220vh;
+    height: 250vh;
   }
 
   @media screen and (max-width: 375px) {
