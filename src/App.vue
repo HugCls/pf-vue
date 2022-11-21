@@ -12,7 +12,9 @@ watch(route, (newVal, oldVal) => {
   routeStore.currentRoutePath = newVal.path;
 });
 
-console.log(`Hey There i'm glad you liked the site and want to see whats going on, sure check the repo at https://github.com/HugCls/pf-vue 🚀`);
+console.log(
+  `Hey There i'm glad you liked the site and want to see whats going on, sure check the repo at https://github.com/HugCls/pf-vue 🚀`
+);
 </script>
 
 <template>
@@ -41,28 +43,19 @@ console.log(`Hey There i'm glad you liked the site and want to see whats going o
   @media screen and (max-width: 1200px) {
     height: 220vh;
   }
-    
-  
 
   @media screen and (max-width: 375px) {
-    
     height: 100vh;
-  
-    
-  } 
+  }
 
   @media screen and (max-width: 768px) {
-    
     height: 100vh;
-  
-    
   }
 }
-  .navbar-container {
-    margin: 0 auto;
-    width: 70%;
-  }
-
+.navbar-container {
+  margin: 0 auto;
+  width: 70%;
+}
 
 .routes-wrapper {
   display: flex;

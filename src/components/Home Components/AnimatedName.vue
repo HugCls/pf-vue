@@ -66,7 +66,7 @@ $orange-2: rgb(255, 136, 0);
   .name {
     font-size: 2.5rem;
     max-width: 400px;
-    // margin-top: -500px
+    margin-top: 200px
   }
 }
 
