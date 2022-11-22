@@ -51,7 +51,7 @@ body {
   }
 
   @media screen and (max-width: 667px) {
-    height: 200vh;
+    height: 100vh;
   }
 
   .name-container {
