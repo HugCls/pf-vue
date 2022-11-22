@@ -102,7 +102,6 @@ nav {
 
       @media screen and (max-width: 1200px) {
         margin-left: -2rem;
-        // display: none;
 
 
       }

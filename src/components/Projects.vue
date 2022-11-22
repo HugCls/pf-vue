@@ -48,7 +48,7 @@ const projects = [
         </a>
         <div class="postcard__text t-dark">
           <h1 class="postcard__title">
-            <a href="#">Michael 'Mudcat' Ward's website.</a>
+            <a href="#">Michael 'Mudcat'<br> Ward's website.</a>
           </h1>
           <div class="postcard__subtitle small">
             <p>Next.js</p>
@@ -294,7 +294,6 @@ const projects = [
 
 .container {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

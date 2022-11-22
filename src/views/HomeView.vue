@@ -21,12 +21,8 @@ import CustomButton from "../components/CustomButton.vue";
         href="https://www.linkedin.com/in/hugo-claisse-b9a22a222/"
         target="_blank"
       >
-        <CustomButton text="More about me"
+        <CustomButton text="&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;More about me"
       /></a>
-    </div>
-
-    <div class="social-icons-container">
-      <SocialIcons />
     </div>
   </div>
 </template>
@@ -37,12 +33,13 @@ body {
 }
 .view-wrapper {
   display: flex;
+  // height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   @media screen and (max-width: 1200px) {
-    height: 250vh;
+    height: 200vh;
   }
 
   @media screen and (max-width: 375px) {
@@ -51,6 +48,10 @@ body {
 
   @media screen and (max-width: 768px) {
     height: 100vh;
+  }
+
+  @media screen and (max-width: 667px) {
+    height: 200vh;
   }
 
   .name-container {
@@ -79,38 +80,35 @@ body {
   @media screen and (max-width: 375px) {
     margin-top: -2rem;
   }
-    
-  }
+}
 
-  .see-more-container {
-    display: flex;
-    justify-content: start;
-    width: 70%;
+.see-more-container {
+  display: flex;
+  justify-content: start;
+  width: 70%;
+  margin-top: 2rem;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
     margin-top: 2rem;
-
-    @media screen and (max-width: 768px) {
-      width: 90%;
-      margin-top: 2rem;
-    }
-
-    @media screen and (max-width: 375px) {
-      width: 90%;
-      // margin-top: 1.5rem;
-    }
   }
 
-  .social-icons-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: -3rem;
-    width: 70%;
-    margin-top: 2rem;
-
-    @media screen and (max-width: 768px) {
-      width: 90%;
-      bottom: -5rem;
-    }
+  @media screen and (max-width: 375px) {
+    width: 90%;
   }
+}
 
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -3rem;
+  width: 70%;
+  margin-top: 2rem;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    bottom: -5rem;
+  }
+}
 </style>

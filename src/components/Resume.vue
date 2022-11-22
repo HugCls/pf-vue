@@ -189,7 +189,7 @@ const experienceDescription =
             </p>
 
             <router-link class="projects-link-container" to="/projects">
-              <p class="projects-link">hugo-pf-vue.vercel.app/resume</p>
+              <p class="projects-link">hugo-pf-vue.vercel.app/projects</p>
               <span class="projects-link-underline"></span>
             </router-link>
           </div>
@@ -237,7 +237,6 @@ $light-blue: #0077b5;
 }
 
 .wrapper {
-  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -274,12 +273,14 @@ $light-blue: #0077b5;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
     padding: 3rem;
 
     @media screen and (max-width: 768px) {
+      height: 100vh;
       padding: 0;
     }
+
+   
     .side-container {
       padding: 2rem;
       height: 100vh;
@@ -287,6 +288,10 @@ $light-blue: #0077b5;
       position: relative;
 
       @media screen and (max-width: 768px) {
+        display: none;
+      }
+
+      @media screen and (max-width: 1200px) {
         display: none;
       }
 
@@ -364,7 +369,14 @@ $light-blue: #0077b5;
         color: $black;
 
         @media screen and (max-width: 768px) {
-          font-size: 3rem;
+          font-size: 2.5rem;
+
+        }
+
+        @media screen and (max-width: 1200px) {
+          font-size: 2.5rem;
+          margin-bottom: 50px
+          
         }
       }
     }

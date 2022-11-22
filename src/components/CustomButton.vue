@@ -46,6 +46,11 @@ button {
         width: 14rem;
         height: auto;
 
+        @media screen and (max-width: 1200px) {
+            margin-top: -2px
+            
+        }
+
         .circle {
             @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
             position: relative;
@@ -55,6 +60,15 @@ button {
             height: 3rem;
             background: $black;
             border-radius: 1.625rem;
+
+            @media screen and (max-width: 1200px) {
+                width: 2.2rem;
+                height: 2.2rem;
+                margin-left: 40px
+            
+                
+                
+            }
 
             .icon {
                 @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
@@ -82,6 +96,27 @@ button {
                         border-right: 0.125rem solid #fafafa;
                         transform: rotate(45deg);
                     }
+
+                    @media screen and (max-width: 1200px) {
+                        left: 0.45rem;
+                        width: 0.9rem;
+                        height: 0.1rem;
+                        background: none;
+
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            top: -0.2rem;
+                            right: 0.05rem;
+                            width: 0.5rem;
+                            height: 0.5rem;
+                            border-top: 0.125rem solid #fafafa;
+                            border-right: 0.125rem solid #fafafa;
+                            transform: rotate(45deg);
+                        }
+                    
+                        
+                    }
                 }
             }
         }
@@ -99,7 +134,12 @@ button {
             font-weight: 500;
             line-height: 1.6;
             text-align: center;
+
+            @media screen and (max-width: 1200px) {
+                margin-top: -5px;
+            }
         }
+
     }
 
     &:hover {
