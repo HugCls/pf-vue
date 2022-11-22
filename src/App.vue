@@ -1,6 +1,8 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
 import CustomCursor from "./components/CustomCursor.vue";
+import SocialIcons from "./components/Home Components/SocialIcons.vue";
+import FooterSection from "./components/Footer.vue"
 import { useRoute } from "vue-router";
 import { watch } from "vue";
 import { useRouteStore } from "./stores/routeStore";
@@ -27,30 +29,48 @@ console.log(
         <transition name="fade" mode="out-in">
           <component :is="Component" />
         </transition>
+        
+        <!-- <div class="social-icons-container">
+          <SocialIcons />
+        </div> -->
       </RouterView>
     </div>
+
     <CustomCursor />
   </div>
+  <div class="footer-container">
+          <FooterSection />
+          </div>
 </template>
 
 <style lang="scss" scoped>
 .page-wrapper {
   display: flex;
   flex-direction: column;
-  // height: 100vh;
   overflow: hidden;
-
- 
 }
 .navbar-container {
   margin: 0 auto;
   width: 70%;
 }
 
+
+
 .routes-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+ 
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    bottom: -5rem;
+  }
 }
 </style>

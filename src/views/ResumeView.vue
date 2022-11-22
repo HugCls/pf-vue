@@ -14,6 +14,5 @@ import Resume from "../components/Resume.vue";
   padding: 2rem;
   padding-bottom: 7rem;
   width: 100%;
-  height: 100%;
 }
 </style>
